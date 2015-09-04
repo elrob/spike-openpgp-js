@@ -1,17 +1,4 @@
-<label>Private key:</label>
-<input type="file" id="private-key"/>
-
-<label>Passphrase:</label>
-<input type="text" name="passphrase"/>
-
-<button onclick="submitFunction()">Submit</button>
-
-<br>
-<br>
-<br>
-
-<div>
-<textarea id="pgp-message">-----BEGIN PGP MESSAGE-----
+-----BEGIN PGP MESSAGE-----
 Version: OpenPGP.js v0.10.1
 Comment: http://openpgpjs.org
 
@@ -25,8 +12,3 @@ eNJVAbOe++f6DxIWoPl/rVEyE1MP9x2p9lDtaBtDaloPHrjoZ9wsNLgYyyqi
 qlGiyebRc24HHO4a7jRIQMcNX2dhNcAMPo+TRNywCDBF1KnH1gDH2Tdmeg==
 =4tqy
 -----END PGP MESSAGE-----
-</textarea>
-</div>
-
-<script src="dist/openpgp.js"></script>
-<script src="decrypt.js"></script>
